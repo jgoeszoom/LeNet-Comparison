@@ -2,21 +2,12 @@
 LeNet CNN implementation using cuDNN primitives. 
 Our implementation will use the MNIST handwritten digits dataset with its corresponding dataset and labels to train the CNN on a GPU to hopefully recognize the handwritten digits. 
 The architecture of our LeNet CNN implementation is as follows: 
-* Input Layer
-* Convolution Layer
-* ReLu Layer
-* Maxpool Layer
-* Convolution Layer
-* ReLu Layer
-* Maxpool Layer
-* Fully Connected Layer
-* ReLu layer
-* Fully Connected Layer
+* Input, Conv, ReLu, Maxpool, Conv, ReLu, Maxpool, Fully-connected layer, ReLu, Fully-connected layer
 
 ## Authors ## 
-* **Jack Gu** 
-* **Joseph Gozum**
-* **Justin Lam**
+* Jack Gu
+* Joseph Gozum
+* Justin Lam
 
 ## Built With ##
 * **C** - Programming Language
